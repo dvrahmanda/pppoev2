@@ -1,0 +1,5 @@
+Flask
+requests
+routeros_api
+python-dotenv>=1.0,<2.0
+pywebpush>=2.0,<3.0

@@ -1,0 +1,100 @@
+🎨 SISTEM WARNA DASHBOARD ONT - REFERENSI CEPAT
+
+===============================================================================
+🚨 PENTING: WARNA DITENTUKAN BERDASARKAN KATEGORI PERANGKAT (FIELD ICON)
+===============================================================================
+
+🟢 CSR (Customer Service Representative) - Icon 155
+   ✅ ONLINE: HIJAU (#27ae60) - Perangkat CSR berfungsi normal
+   ❌ OFFLINE: ORANYE (#ff6b35) - Perangkat CSR tidak tersedia
+
+🔵 APBD (Anggaran Pendapatan Belanja Daerah) - Icon 119
+   ✅ ONLINE: BIRU (#3498db) - Sistem APBD berfungsi normal
+   ❌ OFFLINE: MERAH (#e74c3c) - Sistem APBD tidak tersedia
+
+🟡 UMUM (Kategori Lain) - Icon Bukan 119/155
+   ✅ ONLINE: HIJAU (#27ae60) - Perangkat umum berfungsi
+   ❌ OFFLINE: MERAH (#e74c3c) - Perangkat umum tidak tersedia
+
+===============================================================================
+📊 CARA MEMBACA STATUS REAL-TIME
+===============================================================================
+
+🎯 STATUS ONLINE (Berfungsi):
+   - Warna HIJAU = CSR/Umum Online
+   - Warna BIRU = APBD Online
+
+🚨 STATUS OFFLINE (Perlu Perhatian):
+   - Warna ORANYE = CSR Offline
+   - Warna MERAH = APBD Offline
+
+===============================================================================
+🚨 PRIORITAS MAINTENANCE
+===============================================================================
+
+1. 🔴 MERAH - APBD Offline (PRIORITAS TERTINGGI)
+   - Sistem anggaran daerah tidak tersedia
+   - Dampak: Layanan publik terhambat
+   - Aksi: Segera periksa dan perbaiki
+
+2. 🟠 ORANYE - CSR Offline (PRIORITAS SEDANG)
+   - Customer service tidak tersedia
+   - Dampak: Layanan pelanggan terhambat
+   - Aksi: Periksa dalam waktu singkat
+
+3. 🟢 HIJAU - Semua Online (STATUS NORMAL)
+   - Semua sistem berfungsi dengan baik
+   - Dampak: Tidak ada
+   - Aksi: Monitoring rutin
+
+===============================================================================
+💡 TIPS PENGGUNAAN
+===============================================================================
+
+✅ MONITORING:
+   - Update otomatis setiap 5 detik
+   - Fokus pada warna ORANYE dan MERAH
+   - Gunakan filter kategori untuk monitoring spesifik
+
+✅ NOTIFIKASI:
+   - Cek notifikasi real-time untuk alert status
+   - Monitor histori notifikasi untuk trend
+   - Set alert untuk perubahan status kritis
+
+✅ MAINTENANCE:
+   - Prioritaskan berdasarkan warna status
+   - Dokumentasikan setiap perubahan
+   - Lakukan preventive maintenance rutin
+
+===============================================================================
+🔧 IMPLEMENTASI TEKNIS
+===============================================================================
+
+📁 File yang Diupdate:
+   - templates/map.html (Icon SVG dengan warna dinamis)
+   - app.py (Logika warna berdasarkan Icon)
+   - Dashboard dengan statistik kategori
+
+🎨 Color Codes:
+   - CSR Online: #27ae60 (Hijau)
+   - CSR Offline: #ff6b35 (Oranye)
+   - APBD Online: #3498db (Biru)
+   - APBD Offline: #e74c3c (Merah)
+   - Umum Online: #27ae60 (Hijau)
+   - Umum Offline: #e74c3c (Merah)
+
+===============================================================================
+📞 SUPPORT & TROUBLESHOOTING
+===============================================================================
+
+❓ Jika ada masalah:
+   1. Cek field Icon di data ONT
+   2. Verifikasi status ping real-time
+   3. Monitor notifikasi sistem
+   4. Cek log aplikasi untuk error
+
+🎯 TUJUAN SISTEM:
+   Memudahkan identifikasi cepat status perangkat berdasarkan kategori
+   dan prioritas maintenance untuk efisiensi operasional
+
+===============================================================================
